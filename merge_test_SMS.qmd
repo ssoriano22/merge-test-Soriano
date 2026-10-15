@@ -15,7 +15,7 @@ df = pd.DataFrame({
 print(df)
 
 # Select rows subset
-subset = df[df['C'] == 'x']
+subset = df[df['C'] == 'z']
 
 print("Subset has", len(subset), "rows.")
 ```
